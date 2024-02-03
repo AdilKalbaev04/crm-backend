@@ -47,7 +47,7 @@ public class CustomerController {
 
     }
 
-
+// xz
     @DeleteMapping("{id}")
     public ResponseEntity<String> deleteCustomer(@PathVariable("id") Long customerId){
     customerService.deleteCustomer(customerId);
